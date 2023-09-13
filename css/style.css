@@ -128,3 +128,14 @@ a{
 .bg-footer{
     background-color: var(--color-secondary-color);
 }
+
+/* hover */
+.image:hover .primary-image{
+    display: none;
+}
+.secondary-image{
+    display: none;
+}
+.image:hover .secondary-image{
+    display: inline-block;
+}
