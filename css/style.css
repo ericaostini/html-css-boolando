@@ -67,12 +67,13 @@ a{
 }
 
 /* main */
-.image{
+.unit{
     width: 32%;
     margin-bottom: 15px;
     min-width: 300px;
+    position: relative;
 }
-.image img{
+.unit img{
     width:100%;
     display: block;
 }
@@ -84,4 +85,14 @@ a{
 }
 .line{
     text-decoration: line-through;
+}
+.image{
+    position: relative;
+}
+.heart{
+   background-color: var(--color-primary-color);
+   position: absolute;
+   top: 8px;
+   right: 0;
+   padding: 10px;
 }
