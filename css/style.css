@@ -26,6 +26,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: var(--color-primary-color);
 }
 .row-flex{
     display: flex;
@@ -42,6 +43,9 @@ a{
     font-weight: bold;
 }
 /* nav bar */
+.padding-main{
+    padding-top: 60px;
+}
 .h-background{
     background-color: var(--color-nav-bar);
     box-shadow: 0px 1px 3px 0px #000000;
@@ -109,4 +113,9 @@ a{
 .sostenibilità{
     background-color: var(--color-sostenibilità);
     padding: 5px 10px;
+}
+
+/* footer */
+.bg-footer{
+    background-color: var(--color-secondary-color);
 }
