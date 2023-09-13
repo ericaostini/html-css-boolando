@@ -76,4 +76,12 @@ a{
     width:100%;
     display: block;
 }
-
+.bold{
+    font-weight: bold;
+}
+.red-text{
+    color: var(--color-discount);
+}
+.line{
+    text-decoration: line-through;
+}
