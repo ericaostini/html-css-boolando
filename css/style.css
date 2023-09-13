@@ -96,3 +96,17 @@ a{
    right: 0;
    padding: 10px;
 }
+.discont-positon{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+.discount{
+    background-color: var(--color-discount);
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+.sostenibilità{
+    background-color: var(--color-sostenibilità);
+    padding: 5px 10px;
+}
